@@ -1,4 +1,5 @@
 "use client";
+import { useState } from "react";
 import {
   LocalMallIcon,
   PersonIcon,
@@ -15,6 +16,15 @@ import Sidebar from "./NavBar/Sidebar/Sidebar";
 type Props = {};
 
 const NavBar = (props: Props) => {
+  const [sidebarActive, setSidebarActive] = useState<boolean>(false);
+  const [sidebarCloseFromChild, setSidebarCloseFromChild] =
+    useState<boolean>(false);
+
+  const handleSidebarFromChild = (data: boolean) => {
+    setSidebarCloseFromChild(data);
+    setSidebarActive(sidebarCloseFromChild);
+  };
+
   return (
     <>
       <nav className="my-2 hidden w-full justify-around md:flex">
@@ -53,7 +63,9 @@ const NavBar = (props: Props) => {
       <div>
         <nav className="m-2 flex items-center justify-around md:hidden md:w-0">
           <div className="flex w-1/2">
-            <MenuIcon className="mr-5 h-10 w-10 justify-center text-[#1C1C1C] md:hidden" />
+            <button onClick={() => setSidebarActive(!sidebarActive)}>
+              <MenuIcon className="mr-5 h-10 w-10 justify-center text-[#1C1C1C] md:hidden" />
+            </button>
             <span className="mr-3 flex h-10 w-10  items-center justify-center rounded-lg bg-[#0D6EFD]">
               <LocalMallIcon className="text-white" />
             </span>
@@ -78,8 +90,10 @@ const NavBar = (props: Props) => {
             className="h-12 w-4/5 rounded-lg border-2 border-[#DEE2E7] bg-[#F7FAFC] pl-4 text-xl text-[#8B96A5] caret-[#8B96A5] outline-none"
           />
         </div>
-    
-        <Sidebar />
+
+        <div className={sidebarActive ? "block" : "hidden"}>
+          <Sidebar handleSidebarFromChild={handleSidebarFromChild} />
+        </div>
       </div>
     </>
   );

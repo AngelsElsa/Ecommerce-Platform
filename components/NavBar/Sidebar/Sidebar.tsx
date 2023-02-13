@@ -1,4 +1,5 @@
-import AccountCircle from "@mui/icons-material/AccountCircle";
+import React, { FC, useEffect, useRef } from "react";
+
 import SideBarButton from "./SideBarButton/SideBarButton";
 import {
   HomeOutlinedIcon,
@@ -8,17 +9,40 @@ import {
   HeadsetMicOutlinedIcon,
   BusinessOutlinedIcon,
   LanguageOutlinedIcon,
+  AccountCircleIcon,
 } from "@/utils/MaterialIcons";
 
-export default function Sidebar() {
+interface Props {
+  handleSidebarFromChild: (name: boolean) => void;
+}
+
+const Sidebar: FC<Props> = ({ handleSidebarFromChild }) => {
   const styleSideBarButton = "mr-5 ml-2 text-4xl text-[#8B96A5]";
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutsideSidebar = (event) => {
+      if (ref.current && ref.current.contains(event.current)) {
+        handleSidebarFromChild(false);
+      }
+    };
+  }, [ref]);
 
   return (
     <>
-      <div className="absolute top-0 h-screen w-full bg-[#636363] sm:hidden">
+      <div
+        ref={ref}
+        className="sidebar fixed top-0 h-screen w-full bg-[#636363] md:hidden"
+      >
         <div className="h-screen w-3/4 bg-white p-5">
+          <button
+            onClick={() => handleSidebarFromChild(false)}
+            className="flex h-8 w-8 justify-center rounded-full text-2xl hover:bg-gray-200"
+          >
+            ⨉
+          </button>
           <div>
-            <AccountCircle className="my-2 text-7xl text-[#BDC4CD]" />
+            <AccountCircleIcon className="mb-2 text-7xl text-[#BDC4CD]" />
             <div className="mb-5 flex text-2xl">
               <button>Sign in</button>&nbsp;&nbsp;|&nbsp;&nbsp;
               <button>Register</button>
@@ -71,4 +95,6 @@ export default function Sidebar() {
       </div>
     </>
   );
-}
+};
+
+export default Sidebar;

@@ -8,7 +8,7 @@ interface Props {
 const SideBarButton: FC<Props> = ({ icon, title }) => {
   return (
     <div>
-      <button className="flex items-center py-4 text-xl">
+      <button className="flex w-full items-center rounded-full py-4 text-xl transition-all hover:bg-gray-200">
         {icon}
         <p>{title}</p>
       </button>
