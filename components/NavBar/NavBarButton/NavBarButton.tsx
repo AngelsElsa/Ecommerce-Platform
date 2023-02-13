@@ -4,12 +4,13 @@ interface Props {
   title: string;
   icon: ReactElement;
 }
+
 const NavBarButton: FC<Props> = ({ title, icon }) => {
   return (
     <div>
-      <button className="text-[#979797] px-3">
+      <button className="px-3 text-[#979797] xl:px-4">
         {icon}
-        <p>{title}</p>
+        <p className="xl:text-lg">{title}</p>
       </button>
     </div>
   );
