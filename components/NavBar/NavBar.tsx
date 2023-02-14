@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 import {
   LocalMallIcon,
   PersonIcon,
@@ -29,7 +30,7 @@ const NavBar = (props: Props) => {
     <>
       <nav className="my-2 hidden w-full justify-around md:flex">
         {/* Brand Logo */}
-        <div className="flex w-1/5 items-center justify-evenly pl-10 md:justify-start">
+        <div className="flex w-1/5 cursor-pointer items-center justify-evenly pl-10 md:justify-start">
           <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-[#0D6EFD]">
             <LocalMallIcon className="text-white" />
           </span>
@@ -64,21 +65,23 @@ const NavBar = (props: Props) => {
         <nav className="m-2 flex items-center justify-around md:hidden md:w-0">
           <div className="flex w-1/2">
             <button onClick={() => setSidebarActive(!sidebarActive)}>
-              <MenuIcon className="mr-5 h-10 w-10 justify-center text-[#1C1C1C] md:hidden" />
+              <MenuIcon className="mr-5 h-10 w-10 cursor-pointer justify-center rounded-full text-[#1C1C1C] transition-all hover:bg-gray-200 hover:p-1 hover:text-[#0D6EFD] md:hidden" />
             </button>
-            <span className="mr-3 flex h-10 w-10  items-center justify-center rounded-lg bg-[#0D6EFD]">
-              <LocalMallIcon className="text-white" />
-            </span>
-            <h1 className="text-3xl font-bold text-[#8CB7F5]">Brand</h1>
+            <Link className="flex" href="">
+              <span className="mr-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#0D6EFD]">
+                <LocalMallIcon className="text-white" />
+              </span>
+              <h1 className="text-3xl font-bold text-[#8CB7F5]">Brand</h1>
+            </Link>
           </div>
 
           <div className="">
             <button className="mr-5">
-              <ShoppingCartOutlinedIcon className="h-8 w-8" />
+              <ShoppingCartOutlinedIcon className="h-8 w-8 rounded-full transition-all hover:bg-gray-200 hover:p-1 hover:text-[#0D6EFD]" />
             </button>
 
             <button className="">
-              <PersonOutlineOutlinedIcon className="h-8 w-8" />
+              <PersonOutlineOutlinedIcon className="h-8 w-8 rounded-full transition-all hover:bg-gray-200 hover:p-1 hover:text-[#0D6EFD]" />
             </button>
           </div>
         </nav>
