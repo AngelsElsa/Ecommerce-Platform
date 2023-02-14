@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        black: "#1c1c1c",
+      },
       height: {
         120: "28rem",
       },

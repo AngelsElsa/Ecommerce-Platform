@@ -12,7 +12,7 @@ import {
   ShoppingCartOutlinedIcon,
 } from "@/utils/MaterialIcons";
 import NavBarButton from "./NavBarButton/NavBarButton";
-import Sidebar from "./Sidebar/Sidebar";
+import Sidebar from "../Sidebar/Sidebar";
 
 type Props = {};
 
@@ -28,7 +28,7 @@ const NavBar = (props: Props) => {
 
   return (
     <>
-      <nav className="my-2 hidden w-full justify-around md:flex">
+      <nav className="my-4 hidden w-full justify-around md:flex">
         {/* Brand Logo */}
         <div className="flex w-1/5 cursor-pointer items-center justify-evenly pl-10 md:justify-start">
           <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-[#0D6EFD]">

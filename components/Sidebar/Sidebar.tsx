@@ -21,7 +21,7 @@ const Sidebar: FC<Props> = ({ handleSidebarFromChild }) => {
 
   return (
     <>
-      <div className="sidebar fixed top-0 h-screen w-full bg-[#636363] md:hidden">
+      <div className="sidebar fixed top-0 z-50 h-screen w-full bg-[#636363] md:hidden">
         <div className="h-screen w-3/4 bg-white p-5">
           <button
             onClick={() => handleSidebarFromChild(false)}

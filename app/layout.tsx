@@ -1,4 +1,4 @@
-import HeaderBar from "@/components/HeaderBar/HeaderBar";
+import HeaderBar from "@/components/HeadingBar/HeadingBar";
 import NavBar from "@/components/NavBar/NavBar";
 import "./globals.css";
 
