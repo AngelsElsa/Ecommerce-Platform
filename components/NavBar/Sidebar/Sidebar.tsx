@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useRef } from "react";
+import React, { FC } from "react";
 
 import SideBarButton from "./SideBarButton/SideBarButton";
 import {
@@ -18,22 +18,10 @@ interface Props {
 
 const Sidebar: FC<Props> = ({ handleSidebarFromChild }) => {
   const styleSideBarButton = "mr-5 ml-2 text-4xl text-[#8B96A5]";
-  const ref = useRef(null);
-
-  useEffect(() => {
-    const handleClickOutsideSidebar = (event) => {
-      if (ref.current && ref.current.contains(event.current)) {
-        handleSidebarFromChild(false);
-      }
-    };
-  }, [ref]);
 
   return (
     <>
-      <div
-        ref={ref}
-        className="sidebar fixed top-0 h-screen w-full bg-[#636363] md:hidden"
-      >
+      <div className="sidebar fixed top-0 h-screen w-full bg-[#636363] md:hidden">
         <div className="h-screen w-3/4 bg-white p-5">
           <button
             onClick={() => handleSidebarFromChild(false)}

@@ -8,7 +8,7 @@ interface Props {
 const NavBarButton: FC<Props> = ({ title, icon }) => {
   return (
     <div>
-      <button className="px-3 text-[#979797] xl:px-4">
+      <button className="px-3 text-[#8B96A5] xl:px-4">
         {icon}
         <p className="xl:text-lg">{title}</p>
       </button>

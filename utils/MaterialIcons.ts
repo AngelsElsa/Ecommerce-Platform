@@ -19,6 +19,8 @@ import HeadsetMicOutlinedIcon from "@mui/icons-material/HeadsetMicOutlined";
 import BusinessOutlinedIcon from "@mui/icons-material/BusinessOutlined";
 import LanguageOutlinedIcon from "@mui/icons-material/LanguageOutlined";
 
+//Banner Section
+
 export {
   LocalMallIcon,
   PersonIcon,

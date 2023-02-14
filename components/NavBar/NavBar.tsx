@@ -10,8 +10,8 @@ import {
   PersonOutlineOutlinedIcon,
   ShoppingCartOutlinedIcon,
 } from "@/utils/MaterialIcons";
-import NavBarButton from "./NavBar/NavBarButton/NavBarButton";
-import Sidebar from "./NavBar/Sidebar/Sidebar";
+import NavBarButton from "./NavBarButton/NavBarButton";
+import Sidebar from "./Sidebar/Sidebar";
 
 type Props = {};
 
@@ -51,7 +51,7 @@ const NavBar = (props: Props) => {
         </div>
 
         {/* Buttons*/}
-        <div className="flex w-2/5 items-center justify-end pr-10 lg:w-1/4">
+        <div className="flex w-2/5 items-center justify-around lg:w-1/4">
           <NavBarButton title="Profile" icon={<PersonIcon />} />
           <NavBarButton title="Message" icon={<MessageIcon />} />
           <NavBarButton title="Orders" icon={<FavoriteIcon />} />
@@ -87,7 +87,7 @@ const NavBar = (props: Props) => {
           <input
             type="text"
             placeholder="Search here..."
-            className="h-12 w-4/5 rounded-lg border-2 border-[#DEE2E7] bg-[#F7FAFC] pl-4 text-xl text-[#8B96A5] caret-[#8B96A5] outline-none"
+            className="mt-3 h-12 w-4/5 rounded-lg border-2 border-[#DEE2E7] bg-[#F7FAFC] pl-4 text-xl text-[#8B96A5] caret-[#8B96A5] outline-none"
           />
         </div>
 
