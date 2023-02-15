@@ -13,7 +13,7 @@ const HotProduct: FC<Props> = ({ img, title, discount, styles }) => {
     <div
       className={`cursor-pointer border-l-2 p-4 hover:bg-gray-100 ${styles}`}
     >
-      <Image className="mx-auto h-16 w-16" src={img} alt="product" />
+      <Image className="mx-auto h-16 w-20" src={img} alt="product" />
       <p className="mb-2 mt-4 text-center">{title}</p>
       <p className="mx-auto flex w-12 justify-center rounded-xl bg-[#FFE3E3] text-center font-bold text-red-500 lg:w-16">
         -{discount}%

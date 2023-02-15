@@ -1,5 +1,6 @@
 import CategorySection from "@/components/CategorySection/CategorySection";
 import HotDealsSection from "@/components/HotDealsSection/HotDealsSection";
+import SendQuoteSection from "@/components/SendQuoteSection/SendQuoteSection";
 import BannerSection from "../components/BannerSection/BannerSection";
 
 import {
@@ -45,7 +46,7 @@ export default function Home() {
         productTitle2="Sofa & beds"
         productTitle3="Picnic tools"
         productTitle4="Cooking baskets"
-        productTitle5="Kitchen mixers"
+        productTitle5="Kitchen tools"
         productTitle6="Blenders"
         productTitle7="Home appliance"
         productTitle8="Flower plants"
@@ -58,7 +59,6 @@ export default function Home() {
         productPrice7={19}
         productPrice8={19}
       />
-
       <CategorySection
         categoryTitle1="Consumer &"
         categoryTitle2="electronics"
@@ -89,6 +89,7 @@ export default function Home() {
         productPrice7={19}
         productPrice8={19}
       />
+      <SendQuoteSection />
     </main>
   );
 }
