@@ -24,7 +24,7 @@ const BannerSection = (props: Props) => {
   ];
 
   return (
-    <div className="flex h-120 w-full justify-evenly md:py-10">
+    <div className="flex h-60 w-full justify-evenly md:h-120 md:py-10">
       {/* Desktop Category List */}
       <div className="hidden w-1/6 flex-col md:flex">
         <button className="w-full flex-1 rounded-lg bg-[#E5F1FF] pl-5 text-start font-semibold text-black">
@@ -54,7 +54,7 @@ const BannerSection = (props: Props) => {
           priority={true}
           unoptimized={true}
           src={BannerImg}
-          className="h-1/2 w-full sm:h-[100%] sm:object-cover"
+          className="h-60 w-full sm:h-[100%] sm:object-cover"
           alt="banner"
         />
       </div>
