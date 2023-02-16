@@ -12,7 +12,7 @@ const RecommendSection = (props: Props) => {
         Recommended items
       </h4>
 
-      <div className="flex flex-wrap justify-between">
+      <div className="flex flex-wrap justify-around">
         <RecommendItem
           img={Shirt}
           price={10.35}

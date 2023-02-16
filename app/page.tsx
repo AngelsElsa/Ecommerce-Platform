@@ -26,10 +26,11 @@ import {
   Tablet,
   Phone2,
 } from "../utils/CategoryAssets";
+import NewsletterSection from "@/components/NewsletterSection/NewsletterSection";
 
 export default function Home() {
   return (
-    <main className="bg-gray-100">
+    <main className="bg-[#EFF2F4]">
       <BannerSection />
       <HotDealsSection />
       <CategorySection
@@ -96,6 +97,7 @@ export default function Home() {
       <RecommendSection />
       <ServicesSection />
       <SupplierRegionSection />
+      <NewsletterSection />
     </main>
   );
 }
