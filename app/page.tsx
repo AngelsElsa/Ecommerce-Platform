@@ -1,5 +1,6 @@
 import CategorySection from "@/components/CategorySection/CategorySection";
 import HotDealsSection from "@/components/HotDealsSection/HotDealsSection";
+import RecommendSection from "@/components/RecommendSection/RecommendSection";
 import SendQuoteSection from "@/components/SendQuoteSection/SendQuoteSection";
 import BannerSection from "../components/BannerSection/BannerSection";
 
@@ -90,6 +91,7 @@ export default function Home() {
         productPrice8={19}
       />
       <SendQuoteSection />
+      <RecommendSection />
     </main>
   );
 }

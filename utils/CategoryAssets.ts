@@ -22,6 +22,8 @@ import Tablet from "../public/assets/tablet.png";
 import Phone2 from "../public/assets/phone2.png";
 import Kettle from "../public/assets/kettle.png";
 
+import Shirt from "../public/assets/shirt.png";
+
 export {
   CategoryImg1,
   CategoryImg2,
@@ -42,4 +44,5 @@ export {
   Phone2,
   Kettle,
   Tablet,
+  Shirt,
 };

@@ -5,7 +5,7 @@ type Props = {};
 
 const SendQuoteSection = (props: Props) => {
   return (
-    <div className="mx-0 my-10 block h-48 items-center justify-between rounded-none bg-gradient-to-r from-[#2C7CF1] to-[#00d1ff80] md:mx-10 md:flex md:h-96 md:rounded-md">
+    <div className="mx-0 my-5 block h-48 items-center justify-between rounded-none bg-gradient-to-r from-[#2C7CF1] to-[#00d1ff80] md:my-10 md:mx-10 md:flex md:h-96 md:rounded-md">
       <div className="w-full p-4 text-center text-white md:w-3/5 lg:mx-10 lg:py-2 lg:px-4 lg:text-left xl:mx-20">
         <h4 className="my-2 text-4xl font-extrabold md:my-5 lg:text-5xl xl:text-6xl">
           An easy way to send requests to all suppliers

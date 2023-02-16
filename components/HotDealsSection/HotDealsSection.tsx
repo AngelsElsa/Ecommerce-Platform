@@ -20,7 +20,7 @@ const HotDealsSection = (props: Props) => {
       <div className="mx-10 hidden items-center justify-around rounded-md border-2 bg-white md:flex lg:mx-20">
         {/* Desktop Timer Section */}
         <div className="w-1/4 text-center">
-          <h4 className="text-sm font-semibold tracking-wide md:text-xl lg:text-2xl">
+          <h4 className="text-sm font-bold tracking-wide md:text-xl lg:text-3xl">
             Deals and offers
           </h4>
           <h6 className="text-light mb-4 text-xs text-[#8B96A5] md:text-sm lg:text-base">
