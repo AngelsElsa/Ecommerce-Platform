@@ -24,6 +24,21 @@ import Kettle from "../public/assets/kettle.png";
 
 import Shirt from "../public/assets/shirt.png";
 
+import Service1 from "../public/assets/service1.png";
+import Service2 from "../public/assets/service2.png";
+import Service3 from "../public/assets/service3.png";
+import Service4 from "../public/assets/service4.png";
+
+import FlagUAE from "../public/assets/flagUAE.png";
+import FlagAUS from "../public/assets/flagAUS.png";
+import FlagUS from "../public/assets/flagUS.png";
+import FlagDK from "../public/assets/flagDK.png";
+import FlagFR from "../public/assets/flagFR.png";
+import FlagGB from "../public/assets/flagGB.png";
+import FlagIT from "../public/assets/flagIT.png";
+import FlagRU from "../public/assets/flagRU.png";
+import FlagCN from "../public/assets/flagCN.png";
+
 export {
   CategoryImg1,
   CategoryImg2,
@@ -45,4 +60,17 @@ export {
   Kettle,
   Tablet,
   Shirt,
+  Service1,
+  Service2,
+  Service3,
+  Service4,
+  FlagUAE,
+  FlagAUS,
+  FlagUS,
+  FlagDK,
+  FlagFR,
+  FlagGB,
+  FlagIT,
+  FlagRU,
+  FlagCN,
 };

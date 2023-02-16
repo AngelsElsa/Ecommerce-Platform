@@ -19,7 +19,10 @@ import HeadsetMicOutlinedIcon from "@mui/icons-material/HeadsetMicOutlined";
 import BusinessOutlinedIcon from "@mui/icons-material/BusinessOutlined";
 import LanguageOutlinedIcon from "@mui/icons-material/LanguageOutlined";
 
-//Banner Section
+//Services
+import SearchIcon from '@mui/icons-material/Search';
+import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
+import SecurityOutlinedIcon from '@mui/icons-material/SecurityOutlined';
 
 export {
   LocalMallIcon,
@@ -38,4 +41,7 @@ export {
   HeadsetMicOutlinedIcon,
   BusinessOutlinedIcon,
   LanguageOutlinedIcon,
+  SearchIcon,
+  SendOutlinedIcon,
+  SecurityOutlinedIcon,
 };

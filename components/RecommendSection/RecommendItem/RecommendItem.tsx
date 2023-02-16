@@ -20,7 +20,9 @@ const RecommendItem: FC<Props> = ({ img, price, description }) => {
       </div>
       <div className="px-5">
         <h6 className="text-xl font-bold">${price}</h6>
-        <p className="my-1 text-base text-[#8B96A5]">{description}</p>
+        <p className="my-1 text-sm text-[#8B96A5] md:text-base">
+          {description}
+        </p>
       </div>
     </div>
   );

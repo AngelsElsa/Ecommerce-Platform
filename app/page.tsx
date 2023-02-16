@@ -3,6 +3,8 @@ import HotDealsSection from "@/components/HotDealsSection/HotDealsSection";
 import RecommendSection from "@/components/RecommendSection/RecommendSection";
 import SendQuoteSection from "@/components/SendQuoteSection/SendQuoteSection";
 import BannerSection from "../components/BannerSection/BannerSection";
+import ServicesSection from "@/components/ServicesSection/ServicesSection";
+import SupplierRegionSection from "@/components/SupplierRegionSection/SupplierRegionSection";
 
 import {
   CategoryImg1,
@@ -92,6 +94,8 @@ export default function Home() {
       />
       <SendQuoteSection />
       <RecommendSection />
+      <ServicesSection />
+      <SupplierRegionSection />
     </main>
   );
 }
