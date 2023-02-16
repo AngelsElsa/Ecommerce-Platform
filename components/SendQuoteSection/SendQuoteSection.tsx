@@ -17,7 +17,7 @@ const SendQuoteSection = (props: Props) => {
       </div>
 
       <div className="mx-4 hidden w-2/5 rounded-lg bg-white p-4 md:block lg:mx-10 lg:py-2 lg:px-4 xl:mx-20">
-        <h4 className="mb-5 text-2xl font-bold">Send quote to suppliers</h4>
+        <h4 className="mb-5 text-3xl font-bold">Send quote to suppliers</h4>
         <input
           type="text"
           className="w-full rounded-lg border-2 py-2 pl-2 text-gray-600 placeholder-gray-400 outline-none focus:border-blue-600"
@@ -31,7 +31,7 @@ const SendQuoteSection = (props: Props) => {
           id=""
         ></textarea>
 
-        <div className="flex justify-around">
+        <div className="flex justify-between">
           <input
             type="number"
             className="w-6/12 rounded-lg border-2 py-2 pl-2 text-gray-600 outline-none"

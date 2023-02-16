@@ -13,17 +13,19 @@ import {
 } from "@/utils/MaterialIcons";
 import NavBarButton from "./NavBarButton/NavBarButton";
 import Sidebar from "../Sidebar/Sidebar";
+import { useToggle } from "../../hooks/useToggle";
 
 type Props = {};
 
 const NavBar = (props: Props) => {
-  const [sidebarActive, setSidebarActive] = useState<boolean>(false);
+  const [sidebarActive, setSidebarActive, toggle] = useToggle();
+
   const [sidebarCloseFromChild, setSidebarCloseFromChild] =
     useState<boolean>(false);
 
   const handleSidebarFromChild = (data: boolean) => {
     setSidebarCloseFromChild(data);
-    setSidebarActive(sidebarCloseFromChild);
+    setSidebarActive(data);
   };
 
   return (
@@ -64,7 +66,7 @@ const NavBar = (props: Props) => {
       <div>
         <nav className="m-2 flex items-center justify-around md:hidden md:w-0">
           <div className="flex w-1/2">
-            <button onClick={() => setSidebarActive(!sidebarActive)}>
+            <button onClick={toggle}>
               <MenuIcon className="mr-5 h-10 w-10 cursor-pointer justify-center rounded-full text-[#1C1C1C] transition-all hover:bg-gray-200 hover:p-1 hover:text-[#0D6EFD] md:hidden" />
             </button>
             <Link className="flex" href="">
