@@ -93,7 +93,7 @@ const Footer = (props: Props) => {
         </div>
       </div>
 
-      <div className="flex items-center justify-between bg-[#E0E0E0] px-10 py-5 text-[#606060]">
+      <div className="flex items-center justify-between bg-[#E0E0E0] px-10 py-2 text-[#606060]">
         <p className="text-lg">© 2023 Brand Store.</p>
         <h4 className="cursor-pointer rounded-lg border-2 border-transparent px-5 py-2 outline-none transition-all hover:border-blue-600">
           English <KeyboardArrowUpIcon />

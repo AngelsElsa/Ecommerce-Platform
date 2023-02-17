@@ -74,7 +74,7 @@ const CategorySection: FC<Props> = ({
   return (
     <div className="mx-10 my-10 hidden rounded-md border-2 bg-white md:flex lg:mx-20">
       <div className="flex w-1/5">
-        <h1 className="absolute mt-2 ml-2 text-xl font-bold lg:ml-6 lg:mt-6 lg:text-2xl xl:mt-10 xl:ml-10 xl:text-4xl">
+        <h1 className="absolute mt-2 ml-2 text-base font-bold lg:ml-6 lg:mt-6 lg:text-lg xl:mt-10 xl:ml-10 xl:text-2xl">
           {categoryTitle1} <br />
           {categoryTitle2}
         </h1>

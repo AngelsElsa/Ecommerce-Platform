@@ -20,7 +20,7 @@ const HotDealsSection = (props: Props) => {
       <div className="mx-10 hidden items-center justify-around rounded-md border-2 bg-white md:flex lg:mx-20">
         {/* Desktop Timer Section */}
         <div className="w-1/4 text-center">
-          <h4 className="text-sm font-bold tracking-wide md:text-xl lg:text-3xl">
+          <h4 className="text-sm font-bold tracking-wide md:text-base lg:text-lg">
             Deals and offers
           </h4>
           <h6 className="text-light mb-4 text-xs text-[#8B96A5] md:text-sm lg:text-base">
@@ -94,9 +94,9 @@ const HotDealsSection = (props: Props) => {
       </div>
 
       {/* Mobile Timer Section */}
-      <div className="flex w-full bg-white py-5 md:hidden">
-        <div className="flex w-1/2 items-center justify-center text-center">
-          <h4 className="text-lg font-semibold tracking-wide">
+      <div className="flex w-full justify-center bg-[#EFF2F4] py-5 md:hidden">
+        <div className="w-1/3">
+          <h4 className="text-center text-lg font-semibold tracking-wide">
             Deals and <br /> offers
           </h4>
         </div>
@@ -133,21 +133,21 @@ const HotDealsSection = (props: Props) => {
       </div>
 
       {/* Mobile Hot Products Section */}
-      <div className="flex w-full justify-around md:hidden">
+      <div className="flex w-full justify-around border-y-2 bg-white shadow-sm md:hidden">
         <HotProduct
-          styles="md:w-1/5 lg:w-1/6 w-1/3 border-y-4"
+          styles="md:w-1/5 lg:w-1/6 w-1/3"
           img={Watch}
           title="Watches"
           discount={25}
         />
         <HotProduct
-          styles="md:w-1/5 lg:w-1/6 w-1/3 border-y-4"
+          styles="md:w-1/5 lg:w-1/6 w-1/3"
           img={Headphone2}
           title="Headphones"
           discount={25}
         />
         <HotProduct
-          styles="md:w-1/5 lg:w-1/6 w-1/3 border-y-4"
+          styles="md:w-1/5 lg:w-1/6 w-1/3"
           img={Laptop}
           title="Laptops"
           discount={25}

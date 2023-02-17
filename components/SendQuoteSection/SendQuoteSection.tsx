@@ -6,17 +6,17 @@ const SendQuoteSection = (props: Props) => {
   return (
     <div className="mx-0 my-5 block items-center justify-between rounded-none bg-gradient-to-r from-[#2C7CF1] to-[#00d1ff80] pb-5 md:my-10 md:mx-10 md:flex md:h-96 md:rounded-md md:pb-0">
       <div className="w-full p-4 text-center text-white md:w-3/5 lg:mx-10 lg:py-2 lg:px-4 lg:text-left xl:mx-20">
-        <h4 className="my-2 text-4xl font-extrabold md:my-5 lg:text-5xl xl:text-6xl">
+        <h4 className="my-2 text-2xl font-bold md:my-5 lg:text-3xl xl:text-4xl">
           An easy way to send requests to all suppliers
         </h4>
-        <p className="hidden md:block lg:text-lg lg:font-bold">
+        <p className="hidden md:block lg:text-base lg:font-semibold">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt.
         </p>
       </div>
 
       <div className="mx-4 hidden w-2/5 rounded-lg bg-white p-2 md:block lg:mx-10 lg:py-2 lg:px-4 xl:mx-20">
-        <h4 className="mb-5 text-3xl font-bold md:text-xl xl:text-3xl">
+        <h4 className="mb-5 text-lg font-bold md:text-xl xl:text-xl">
           Send quote to suppliers
         </h4>
         <input

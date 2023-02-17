@@ -14,7 +14,7 @@ const RecommendItem: FC<Props> = ({ img, price, description }) => {
       <div className="mb-5 flex justify-center">
         <Image
           src={img}
-          className="w-full px-8 pt-8 pb-6"
+          className="b-2 w-full px-8 pt-4"
           alt="recommended_item"
         />
       </div>

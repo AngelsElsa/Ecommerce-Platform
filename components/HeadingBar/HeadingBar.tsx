@@ -7,7 +7,7 @@ type Props = {};
 
 const HeaderBar = (props: Props) => {
   const HeaderBarStyles =
-    "rounded-full px-2 py-1 transition-all hover:bg-gray-200 hover:text-[#0D6EFD]";
+    "rounded-full px-2 py-1 flex items-center transition-all hover:bg-gray-200 hover:text-[#0D6EFD]";
 
   return (
     <>
