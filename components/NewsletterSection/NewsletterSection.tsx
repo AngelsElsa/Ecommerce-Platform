@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 
 type Props = {};
@@ -17,11 +19,11 @@ const NewsletterSection = (props: Props) => {
         <input
           type="text"
           placeholder="@ Email"
-          className="w-2/5 rounded-lg p-2"
+          className="w-2/5 rounded-lg border-blue-600 p-2 text-[#8B96A5] caret-[#8B96A5] outline-none transition-all hover:border-2"
         />
 
-        <button className="ml-2 flex w-1/6 items-center justify-center rounded-lg bg-gradient-to-b from-[#127FFF] to-[#0067FF] p-0 px-2 text-center text-lg text-base font-semibold tracking-wider text-white transition-all duration-700 hover:-translate-y-2 md:ml-5 md:p-2 md:text-xl lg:ml-10 lg:p-3">
-          Send inquiry
+        <button className="ml-2 flex w-1/6 items-center justify-center rounded-lg bg-gradient-to-b from-[#127FFF] to-[#0067FF] px-16 text-center text-sm font-semibold tracking-wider text-white outline-none transition-all duration-700 hover:-translate-y-1 md:ml-5 md:p-2 md:px-5 md:text-xl lg:ml-10 lg:p-3 lg:text-2xl">
+          Subscribe
         </button>
       </div>
     </div>

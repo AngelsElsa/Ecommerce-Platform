@@ -30,7 +30,7 @@ const NavBar = (props: Props) => {
 
   return (
     <>
-      <nav className="my-3 hidden w-full justify-around md:flex">
+      <nav className="fixed z-50 hidden w-full justify-around border-b-2 bg-white py-3 md:flex">
         {/* Brand Logo */}
         <div className="flex w-1/5 cursor-pointer items-center justify-evenly pl-10 md:justify-start">
           <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-[#0D6EFD]">

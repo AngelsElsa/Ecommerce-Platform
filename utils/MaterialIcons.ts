@@ -24,6 +24,15 @@ import SearchIcon from '@mui/icons-material/Search';
 import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
 import SecurityOutlinedIcon from '@mui/icons-material/SecurityOutlined';
 
+//Footer
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import RedditIcon from '@mui/icons-material/Reddit';
+import AppleIcon from '@mui/icons-material/Apple';
+import ShopIcon from '@mui/icons-material/Shop';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+
 export {
   LocalMallIcon,
   PersonIcon,
@@ -44,4 +53,11 @@ export {
   SearchIcon,
   SendOutlinedIcon,
   SecurityOutlinedIcon,
+  FacebookIcon,
+  TwitterIcon,
+  LinkedInIcon,
+  RedditIcon,
+  AppleIcon,
+  ShopIcon,
+  KeyboardArrowUpIcon,
 };

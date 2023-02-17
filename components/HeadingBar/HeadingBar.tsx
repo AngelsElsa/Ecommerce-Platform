@@ -12,7 +12,7 @@ const HeaderBar = (props: Props) => {
   return (
     <>
       {/* Desktop */}
-      <div className="hidden w-full justify-around border-t-2 border-[#E0E0E0] py-2 shadow-md md:flex">
+      <div className="hidden w-full items-center justify-around border-b-2 border-[#E0E0E0] pb-1 pt-20 shadow-xl md:flex">
         <div className="flex w-3/4 items-center justify-around">
           <button className="flex items-center rounded-full px-2 py-1 transition-all hover:bg-gray-200 hover:text-[#0D6EFD]">
             <MenuIcon className="mr-2" />
