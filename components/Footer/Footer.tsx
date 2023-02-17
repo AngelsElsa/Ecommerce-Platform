@@ -33,7 +33,7 @@ const Footer = (props: Props) => {
             Brand - The Leading Ecommerce platform to buy & sell any product.
           </p>
           <div className="hidden justify-start md:flex">
-            <FacebookIcon className="mr-2 cursor-pointer rounded-full text-[#BDC4CD] transition-all hover:text-gray-500 md:text-4xl lg:text-5xl" />
+            <FacebookIcon className="mr-2 cursor-pointer rounded-full text-[#BDC4CD] transition-all hover:text-gray-500 md:text-4xl lg:text-5xl " />
             <TwitterIcon className="mr-2 cursor-pointer rounded-full text-[#BDC4CD] transition-all hover:text-gray-500 md:text-4xl lg:text-5xl" />
             <LinkedInIcon className="mr-2 cursor-pointer rounded-full text-[#BDC4CD] transition-all hover:text-gray-500 md:text-4xl lg:text-5xl" />
             <RedditIcon className="mr-2 cursor-pointer rounded-full text-[#BDC4CD] transition-all hover:text-gray-500 md:text-4xl lg:text-5xl" />
