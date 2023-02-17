@@ -30,8 +30,7 @@ const Footer = (props: Props) => {
           </Link>
 
           <p className="my-5 w-full text-sm text-[#505050] md:w-2/3">
-            Best information about the company gives here but now lorem ipsum
-            is.
+            Brand - The Leading Ecommerce platform to buy & sell any product
           </p>
           <div className="hidden justify-start md:flex">
             <FacebookIcon className="mr-2 cursor-pointer rounded-full text-[#BDC4CD] transition-all hover:text-gray-500 md:text-4xl lg:text-5xl" />

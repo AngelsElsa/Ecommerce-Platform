@@ -78,7 +78,7 @@ const CategorySection: FC<Props> = ({
           {categoryTitle1} <br />
           {categoryTitle2}
         </h1>
-        <button className="absolute mt-20 ml-2 rounded-md bg-white px-2 py-1 tracking-wide shadow-lg hover:bg-gray-200 lg:ml-5 lg:mt-28 lg:py-2 lg:px-3 xl:ml-10 xl:mt-36 xl:px-6 xl:py-2 xl:text-xl">
+        <button className="absolute mt-20 ml-2 rounded-md bg-white px-2 py-1 tracking-wide shadow-lg hover:bg-gray-200 md:text-xs lg:ml-5 lg:mt-28 lg:py-1 lg:px-3 lg:text-sm xl:ml-10 xl:mt-36 xl:px-3 xl:py-1 xl:text-lg">
           {buttonTitle}
         </button>
         <Image

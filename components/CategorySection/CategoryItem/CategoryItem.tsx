@@ -23,7 +23,7 @@ const CategoryItem: FC<Props> = ({
       <div className="flex h-1/2 items-center justify-around border-b-2 border-l-2 hover:cursor-pointer hover:bg-gray-200">
         <div className="flex h-full w-2/3 items-center">
           <div className="pl-2 lg:pl-5">
-            <h1 className="text-xl md:text-xs lg:text-base xl:text-xl">
+            <h1 className="text-xs font-semibold italic md:text-xs lg:text-sm xl:text-lg">
               {productTitle1}
             </h1>
             <p className="text-lg text-[#8B96A5] md:text-xs lg:text-sm xl:text-base">
@@ -39,7 +39,7 @@ const CategoryItem: FC<Props> = ({
       <div className="flex h-1/2 items-center justify-around border-l-2 hover:cursor-pointer hover:bg-gray-200">
         <div className="flex h-full w-2/3 items-center">
           <div className="pl-2 lg:pl-5">
-            <h1 className="text-xl md:text-xs lg:text-base xl:text-xl">
+            <h1 className="text-xs font-semibold italic md:text-xs lg:text-sm xl:text-lg">
               {productTitle2}
             </h1>
             <p className="text-lg text-[#8B96A5] md:text-xs lg:text-sm xl:text-base">
