@@ -65,10 +65,10 @@ const BannerSection = (props: Props) => {
           <div className="m-4 flex h-2/5 items-center justify-around">
             <PersonIcon className="h-12 w-12 rounded-full bg-[#C7E1FF] p-3 text-white xl:h-16 xl:w-16" />
             <p className="md:text-normal hidden pl-4 lg:block lg:text-lg xl:text-xl">
-              Hi, user <br /> let's get started
+              Hi&apos; user <br /> let&#39;s get started
             </p>
             <p className="pl-4 text-lg lg:hidden">
-              Hi, <br />
+              Hi&apos; <br />
               user
             </p>
           </div>
