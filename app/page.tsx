@@ -93,7 +93,7 @@ export default function Home() {
         productPrice8={19}
       />
       <SendQuoteSection />
-      <RecommendSection />
+      <RecommendSection title="Recommended items" />
       <ServicesSection />
       <SupplierRegionSection />
     </main>

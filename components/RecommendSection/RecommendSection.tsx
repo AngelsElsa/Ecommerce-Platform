@@ -1,15 +1,17 @@
-import React from "react";
+import { FC } from "react";
 import RecommendItem from "./RecommendItem/RecommendItem";
 
 import { Shirt } from "@/utils/CategoryAssets";
 
-type Props = {};
+interface Props {
+  title: string;
+}
 
-const RecommendSection = (props: Props) => {
+const RecommendSection: FC<Props> = ({ title }) => {
   return (
     <div className="mx-10">
       <h4 className="mb-5 text-2xl font-bold tracking-wide md:text-xl lg:text-3xl">
-        Recommended items
+        {title}
       </h4>
 
       <div className="flex flex-wrap justify-around">

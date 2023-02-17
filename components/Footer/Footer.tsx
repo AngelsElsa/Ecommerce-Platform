@@ -34,10 +34,10 @@ const Footer = (props: Props) => {
             is.
           </p>
           <div className="hidden justify-start md:flex">
-            <FacebookIcon className="mr-2 cursor-pointer rounded-full text-4xl text-[#BDC4CD] transition-all hover:text-gray-500" />
-            <TwitterIcon className="mr-2 cursor-pointer rounded-full text-4xl text-[#BDC4CD] transition-all hover:text-gray-500" />
-            <LinkedInIcon className="mr-2 cursor-pointer rounded-full text-4xl text-[#BDC4CD] transition-all hover:text-gray-500" />
-            <RedditIcon className="mr-2 cursor-pointer rounded-full text-4xl text-[#BDC4CD] transition-all hover:text-gray-500" />
+            <FacebookIcon className="mr-2 cursor-pointer rounded-full text-[#BDC4CD] transition-all hover:text-gray-500 md:text-4xl lg:text-5xl" />
+            <TwitterIcon className="mr-2 cursor-pointer rounded-full text-[#BDC4CD] transition-all hover:text-gray-500 md:text-4xl lg:text-5xl" />
+            <LinkedInIcon className="mr-2 cursor-pointer rounded-full text-[#BDC4CD] transition-all hover:text-gray-500 md:text-4xl lg:text-5xl" />
+            <RedditIcon className="mr-2 cursor-pointer rounded-full text-[#BDC4CD] transition-all hover:text-gray-500 md:text-4xl lg:text-5xl" />
           </div>
         </div>
 
