@@ -20,7 +20,7 @@ type Props = {};
 const Footer = (props: Props) => {
   return (
     <>
-      <div className="my-10 mx-10 flex items-center justify-around md:ml-16 md:mr-10 lg:ml-20 lg:mr-16 xl:ml-40 xl:mr-12">
+      <div className="my-10 mx-10 flex items-center justify-around md:ml-16 md:mr-10 lg:ml-20 lg:mr-16 xl:ml-28 xl:mr-12">
         <div className="w-1/2 md:w-2/6">
           <Link className="flex" href="">
             <span className="mr-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#0D6EFD]">
@@ -33,10 +33,10 @@ const Footer = (props: Props) => {
             Brand - The Leading Ecommerce platform to buy & sell any product.
           </p>
           <div className="hidden justify-start md:flex">
-            <FacebookIcon className="mr-2 cursor-pointer rounded-full text-[#BDC4CD] transition-all hover:text-gray-500 md:text-4xl lg:text-5xl " />
-            <TwitterIcon className="mr-2 cursor-pointer rounded-full text-[#BDC4CD] transition-all hover:text-gray-500 md:text-4xl lg:text-5xl" />
-            <LinkedInIcon className="mr-2 cursor-pointer rounded-full text-[#BDC4CD] transition-all hover:text-gray-500 md:text-4xl lg:text-5xl" />
-            <RedditIcon className="mr-2 cursor-pointer rounded-full text-[#BDC4CD] transition-all hover:text-gray-500 md:text-4xl lg:text-5xl" />
+            <FacebookIcon className="mr-2 cursor-pointer rounded-full text-2xl text-[#BDC4CD] transition-all hover:text-gray-500 md:text-3xl lg:text-4xl " />
+            <TwitterIcon className="mr-2 cursor-pointer rounded-full text-2xl text-[#BDC4CD] transition-all hover:text-gray-500 md:text-3xl lg:text-4xl " />
+            <LinkedInIcon className="mr-2 cursor-pointer rounded-full text-2xl text-[#BDC4CD] transition-all hover:text-gray-500 md:text-3xl lg:text-4xl " />
+            <RedditIcon className="mr-2 cursor-pointer rounded-full text-2xl text-[#BDC4CD] transition-all hover:text-gray-500 md:text-3xl lg:text-4xl " />
           </div>
         </div>
 
@@ -72,11 +72,12 @@ const Footer = (props: Props) => {
           <p className="text-light text-[#8B96A5]">My Orders</p>
         </div>
 
-        <div className="w-1/2 md:w-1/5">
-          <h4 className="mb-2 hidden text-xl font-semibold md:block md:text-lg">
-            Get app
-          </h4>
+        <div className="flex w-1/2 justify-end md:w-1/5">
           <div className="md:block">
+            <h4 className="mb-2 hidden text-xl font-semibold md:text-lg lg:block">
+              Get app
+            </h4>
+
             <DownloadButton
               text1="Download on"
               text2="App Store &nbsp;"
