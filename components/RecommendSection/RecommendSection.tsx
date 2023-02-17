@@ -9,7 +9,7 @@ interface Props {
 
 const RecommendSection: FC<Props> = ({ title }) => {
   return (
-    <div className="mx-10">
+    <div className="mx-5 md:mx-10">
       <h4 className="mb-5 text-2xl font-bold tracking-wide md:text-xl lg:text-3xl">
         {title}
       </h4>

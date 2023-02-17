@@ -14,13 +14,13 @@ const RecommendItem: FC<Props> = ({ img, price, description }) => {
       <div className="mb-5 flex justify-center">
         <Image
           src={img}
-          className="w-full px-8 pt-8 pb-4"
+          className="w-full px-8 pt-8 pb-6"
           alt="recommended_item"
         />
       </div>
       <div className="px-5">
         <h6 className="text-xl font-bold">${price}</h6>
-        <p className="my-1 text-sm text-[#8B96A5] md:text-base">
+        <p className="mt-1 mb-3 text-sm text-[#8B96A5] md:text-base">
           {description}
         </p>
       </div>

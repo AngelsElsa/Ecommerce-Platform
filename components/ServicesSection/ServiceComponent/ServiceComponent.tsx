@@ -22,7 +22,7 @@ const ServiceComponent: FC<Props> = ({ text1, text2, img, icon }) => {
       </div>
 
       <div className="flex h-20 items-center justify-between rounded-b-lg border-2 px-2 md:h-24 lg:h-28 lg:px-5">
-        <h6 className="py-4 text-sm font-semibold tracking-wide md:text-sm lg:text-lg xl:text-xl">
+        <h6 className="py-4 text-xs font-semibold tracking-wide md:text-sm lg:text-lg xl:text-xl">
           {text1}
           <br />
           {text2}

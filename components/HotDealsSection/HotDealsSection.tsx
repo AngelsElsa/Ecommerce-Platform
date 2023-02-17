@@ -95,15 +95,14 @@ const HotDealsSection = (props: Props) => {
 
       {/* Mobile Timer Section */}
       <div className="flex w-full bg-white py-5 md:hidden">
-        <div className="w-1/2 text-center">
-          <h4 className="text-xl font-semibold tracking-wide">
-            Deals and offers
+        <div className="flex w-1/2 items-center justify-center text-center">
+          <h4 className="text-lg font-semibold tracking-wide">
+            Deals and <br /> offers
           </h4>
-          <h6 className="text-light text-[#8B96A5]">Hygiene equipment</h6>
         </div>
 
-        <div className="flex w-full justify-around">
-          <div className="flex w-1/6 items-center justify-center rounded-md bg-gray-200 text-center text-[#8B96A5]">
+        <div className="flex w-full items-center justify-around">
+          <div className="flex  w-1/6 items-center justify-center rounded-md bg-gray-200 text-center text-[#8B96A5]">
             <div>
               <h6 className="text-xl font-extrabold">04</h6>
               <p className="text-base">Days</p>

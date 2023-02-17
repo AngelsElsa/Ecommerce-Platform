@@ -32,7 +32,7 @@ const HeaderBar = (props: Props) => {
       </div>
 
       {/* Mobile */}
-      <div className="m-4 flex justify-around text-[#0D6EFD] md:hidden">
+      <div className="my-4 mx-2 flex justify-between text-[#0D6EFD] md:hidden">
         <button className="rounded-md bg-gray-200 px-2 py-1 transition-all hover:bg-gray-300 hover:text-blue-500">
           All category
         </button>

@@ -77,10 +77,10 @@ const Footer = (props: Props) => {
           <h4 className="mb-2 hidden text-xl font-semibold md:block md:text-lg">
             Get app
           </h4>
-          <div className="flex justify-end md:block">
+          <div className="md:block">
             <DownloadButton
               text1="Download on"
-              text2="App Store"
+              text2="App Store &nbsp;"
               icon={<AppleIcon className="text-4xl" />}
             />
 
