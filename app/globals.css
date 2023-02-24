@@ -6,8 +6,7 @@
 html,
 body {
   box-sizing: border-box;
-  font-family: "Roboto", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial",
-    sans-serif;
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 /* ScrollBar styling */

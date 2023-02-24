@@ -22,7 +22,7 @@ type Props = {};
 const ServicesSection = (props: Props) => {
   return (
     <div className="mx-10 mb-5">
-      <h4 className="mb-5 text-lg font-extrabold tracking-wide md:text-lg lg:text-xl xl:text-2xl">
+      <h4 className="mb-5 text-lg font-bold tracking-wide md:text-lg lg:text-xl xl:text-2xl">
         Our extra services
       </h4>
 

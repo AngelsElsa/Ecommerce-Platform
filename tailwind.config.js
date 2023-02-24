@@ -16,6 +16,9 @@ module.exports = {
       height: {
         120: "28rem",
       },
+      fontFamily: {
+        sans: ["var(--font-roboto)"],
+      },
     },
   },
   plugins: [],
