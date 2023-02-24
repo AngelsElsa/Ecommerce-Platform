@@ -9,7 +9,7 @@ const SendQuoteSection = (props: Props) => {
         <h4 className="my-2 text-2xl font-bold md:my-5 md:text-3xl lg:text-4xl xl:text-5xl">
           An easy way to send requests to all suppliers
         </h4>
-        <p className="hidden tracking-wide md:block lg:text-sm lg:font-normal xl:font-semibold">
+        <p className="hidden font-light tracking-wide md:block lg:text-sm">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt.
         </p>
