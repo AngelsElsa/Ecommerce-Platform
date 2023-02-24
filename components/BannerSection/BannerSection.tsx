@@ -27,7 +27,7 @@ const BannerSection = (props: Props) => {
     <div className="flex h-60 w-full justify-evenly md:h-120 md:py-10">
       {/* Desktop Category List */}
       <div className="hidden w-1/6 flex-col md:flex">
-        <button className="w-full flex-1 rounded-lg bg-[#E5F1FF] pl-5 text-start font-semibold text-black">
+        <button className="w-full flex-1 rounded-lg bg-[#439AF3] pl-5 text-start font-semibold text-black">
           Automobiles
         </button>
         {categoryItemsArray.map((title) => {
