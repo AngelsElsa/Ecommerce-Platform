@@ -22,7 +22,7 @@ type Props = {};
 const ServicesSection = (props: Props) => {
   return (
     <div className="mx-10 mb-5">
-      <h4 className="mb-5 text-2xl font-bold tracking-wide md:text-xl lg:text-3xl">
+      <h4 className="mb-5 text-lg font-extrabold tracking-wide md:text-lg lg:text-xl xl:text-2xl">
         Our extra services
       </h4>
 
@@ -31,7 +31,7 @@ const ServicesSection = (props: Props) => {
           img={Service1}
           text1="Source from"
           text2="Industry Hubs"
-          icon={<SearchIcon className="text-2xl font-bold lg:text-3xl" />}
+          icon={<SearchIcon className="text-2xl font-bold lg:text-2xl" />}
         />
 
         <ServiceComponent
@@ -39,7 +39,7 @@ const ServicesSection = (props: Props) => {
           text1="Customize Your"
           text2="Products"
           icon={
-            <Inventory2OutlinedIcon className="text-2xl font-bold lg:text-3xl" />
+            <Inventory2OutlinedIcon className="text-2xl font-bold lg:text-2xl" />
           }
         />
 
@@ -47,7 +47,7 @@ const ServicesSection = (props: Props) => {
           img={Service3}
           text1="Fast, reliable shipping"
           text2="by ocean or air"
-          icon={<SendOutlinedIcon className="text-2xl font-bold lg:text-3xl" />}
+          icon={<SendOutlinedIcon className="text-2xl font-bold lg:text-2xl" />}
         />
 
         <ServiceComponent
@@ -55,7 +55,7 @@ const ServicesSection = (props: Props) => {
           text1="Product monitoring"
           text2="and inspection"
           icon={
-            <SecurityOutlinedIcon className="text-2xl font-bold lg:text-3xl" />
+            <SecurityOutlinedIcon className="text-2xl font-bold lg:text-2xl" />
           }
         />
       </div>

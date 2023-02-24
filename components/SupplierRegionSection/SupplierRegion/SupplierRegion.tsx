@@ -14,7 +14,7 @@ const SupplierRegion: FC<Props> = ({ img, country, url }) => {
         <Image src={img} className="w-10" alt="flag" />
       </div>
       <div>
-        <h6 className="font-semibold md:text-lg lg:text-xl xl:text-xl">
+        <h6 className="font-normal md:text-sm lg:text-base xl:text-lg">
           {country}
         </h6>
         <p className="text-sm  text-[#8B96A5]">{url}</p>

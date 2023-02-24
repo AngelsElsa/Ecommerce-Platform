@@ -30,28 +30,28 @@ const HotDealsSection = (props: Props) => {
           <div className="flex w-full justify-center">
             <div className="mr-2 flex h-fit w-1/6 items-center justify-center rounded-md bg-[#606060] text-center text-white">
               <div>
-                <h6 className="text-xl font-extrabold">04</h6>
+                <h6 className="text-xl font-bold">04</h6>
                 <p className="text-xs lg:text-base">Days</p>
               </div>
             </div>
 
             <div className="mr-2 flex w-1/6 items-center justify-center rounded-md bg-[#606060] text-center text-white">
               <div>
-                <h6 className="text-xl font-extrabold">12</h6>
+                <h6 className="text-xl font-bold">12</h6>
                 <p className="text-xs lg:text-base">Hour</p>
               </div>
             </div>
 
             <div className="mr-2 flex w-1/6 items-center justify-center rounded-md bg-[#606060] text-center text-white">
               <div>
-                <h6 className="text-xl font-extrabold">34</h6>
+                <h6 className="text-xl font-bold">34</h6>
                 <p className="text-xs lg:text-base">Min</p>
               </div>
             </div>
 
             <div className="mr-2 flex w-1/6 items-center justify-center rounded-md bg-[#606060] text-center text-white">
               <div>
-                <h6 className="text-xl font-extrabold">56</h6>
+                <h6 className="text-xl font-bold">56</h6>
                 <p className="text-xs lg:text-base">Sec</p>
               </div>
             </div>
