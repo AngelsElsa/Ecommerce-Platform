@@ -8,10 +8,6 @@ html, body {
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-
-
-
-
 /* ScrollBar styling */
 ::-webkit-scrollbar {
     width: 10px;
